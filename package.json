@@ -1,6 +1,6 @@
 {
   "name": "htz-rAF-wrappers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "requestAnimationFrame-based replacements for setTimeout and setInterval",
   "repository": {
     "type": "git",
