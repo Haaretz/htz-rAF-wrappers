@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>htz-rAF-wrappers - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="nav">
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-htz-rAF-wrappers.html">htz-rAF-wrappers</a><ul class='methods'><li data-type='method'><a href="module-htz-rAF-wrappers.html#~clearRequestInterval">clearRequestInterval</a></li><li data-type='method'><a href="module-htz-rAF-wrappers.html#~clearRequestTimeout">clearRequestTimeout</a></li><li data-type='method'><a href="module-htz-rAF-wrappers.html#~requestInterval">requestInterval</a></li><li data-type='method'><a href="module-htz-rAF-wrappers.html#~requestTimeout">requestTimeout</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">htz-rAF-wrappers</h1>
+    
+
+    <!--container.tmpl-->
+
+
+
+
+
+<section>
+
+
+
+<header data-tmpl="container.tmpl">
+    
+      <h2>Module: htz-rAF-wrappers</h2>
+        
+            
+        
+    
+
+    
+      <div class="bs-callout bs-callout-default">
+        <h5>Members</h5>
+        <br />
+        <dl class="dl-horizontal methods-members">
+        <dt>Methods</dt><dd><ul>
+            <li><a href="#clearRequestInterval">clearRequestInterval</a></li>
+            
+            <li><a href="#clearRequestTimeout">clearRequestTimeout</a></li>
+            
+            <li><a href="#requestInterval">requestInterval</a></li>
+            
+            <li><a href="#requestTimeout">requestTimeout</a></li>
+            </ul></dd></dl></div>
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description"><p>HTZ RAF WRAPPERS</p>
+<p><code>requestAnimationFrame</code>-based replacements for <code>setTimeout</code> and <code>setInterval</code></p></div>
+        
+
+        
+            <!--method.tmpl-->
+<div class="method-details">
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line1">1</a>
+  </code>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="collapse_" id="methodCollapse-htz-rAF-wrappers">
+
+  
+
+  
+
+<!-- details.tmpl -->
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line1">1</a>
+  </code>
+</div>
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-license">License:</dt>
+    <dd class="tag-license"><ul class="dummy"><li>MIT</li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--
+<pre>
+{"comment":"/**\n *  HTZ RAF WRAPPERS\n *\n * `requestAnimationFrame`-based replacements for `setTimeout` and `setInterval`\n *\n * @module htz-rAF-wrappers\n * @license MIT\n */","meta":{"range":[0,159],"filename":"index.js","lineno":1,"path":"/home/txh/code/htz-rAF-wrappers/src","code":{},"shortpath":"index.js"},"description":"<p>HTZ RAF WRAPPERS</p>\n<p><code>requestAnimationFrame</code>-based replacements for <code>setTimeout</code> and <code>setInterval</code></p>","kind":"module","name":"htz-rAF-wrappers","license":"MIT","longname":"module:htz-rAF-wrappers","___id":"T000002R000002","___s":true,"attribs":"","id":"htz-rAF-wrappers","ancestors":[]}
+</pre>
+-->
+</div>
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            <!--method.tmpl-->
+<div class="method-details">
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line51">51</a>
+  </code>
+</div>
+
+
+
+
+    
+
+    
+
+    <h4 class="name" id="~clearRequestInterval">
+      <a href="#params-clearRequestInterval"><span class="type-signature">(inner) </span>clearRequestInterval</a><span class="signature">(handle)</span><span class="type-signature"></span>
+
+    </h4>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="description">
+    <p>Cancels a requestInterval</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="collapse_" id="methodCollapse-clearRequestInterval">
+
+  
+
+  
+
+<!-- details.tmpl -->
+
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+  <div id="params-clearRequestInterval" class="bs-callout bs-callout-primary">
+    <h5>Parameters</h5>
+    <!--params.tmpl-->
+
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>handle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Integer</span>
+|
+
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The returned value of <code>requestInterval</code></p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--
+<pre>
+{"comment":"/**\n * Cancels a requestInterval\n * @param {Integer|Object} handle - The returned value of `requestInterval`\n */","meta":{"range":[1179,1313],"filename":"index.js","lineno":51,"path":"/home/txh/code/htz-rAF-wrappers/src","code":{"id":"astnode100000097","name":"clearRequestInterval","type":"FunctionDeclaration","paramnames":["handle"]},"shortpath":"index.js"},"description":"<p>Cancels a requestInterval</p>","params":[{"type":{"names":["Integer","Object"]},"description":"<p>The returned value of <code>requestInterval</code></p>","name":"handle"}],"name":"clearRequestInterval","longname":"module:htz-rAF-wrappers~clearRequestInterval","kind":"function","scope":"inner","memberof":"module:htz-rAF-wrappers","___id":"T000002R000013","___s":true,"attribs":"<span class=\"type-signature\">(inner) </span>","id":"~clearRequestInterval","signature":"<span class=\"signature\">(handle)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"module-htz-rAF-wrappers.html\">htz-rAF-wrappers</a>~"]}
+</pre>
+-->
+</div>
+
+        
+            <!--method.tmpl-->
+<div class="method-details">
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line92">92</a>
+  </code>
+</div>
+
+
+
+
+    
+
+    
+
+    <h4 class="name" id="~clearRequestTimeout">
+      <a href="#params-clearRequestTimeout"><span class="type-signature">(inner) </span>clearRequestTimeout</a><span class="signature">(handle)</span><span class="type-signature"></span>
+
+    </h4>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="description">
+    <p>Cancels a requestTimeout</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="collapse_" id="methodCollapse-clearRequestTimeout">
+
+  
+
+  
+
+<!-- details.tmpl -->
+
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+  <div id="params-clearRequestTimeout" class="bs-callout bs-callout-primary">
+    <h5>Parameters</h5>
+    <!--params.tmpl-->
+
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>handle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Integer</span>
+|
+
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The returned value of <code>requestTimeout</code></p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--
+<pre>
+{"comment":"/**\n * Cancels a requestTimeout\n * @param {Integer|Object} handle - The returned value of `requestTimeout`\n */","meta":{"range":[2269,2401],"filename":"index.js","lineno":92,"path":"/home/txh/code/htz-rAF-wrappers/src","code":{"id":"astnode100000198","name":"clearRequestTimeout","type":"FunctionDeclaration","paramnames":["handle"]},"shortpath":"index.js"},"description":"<p>Cancels a requestTimeout</p>","params":[{"type":{"names":["Integer","Object"]},"description":"<p>The returned value of <code>requestTimeout</code></p>","name":"handle"}],"name":"clearRequestTimeout","longname":"module:htz-rAF-wrappers~clearRequestTimeout","kind":"function","scope":"inner","memberof":"module:htz-rAF-wrappers","___id":"T000002R000023","___s":true,"attribs":"<span class=\"type-signature\">(inner) </span>","id":"~clearRequestTimeout","signature":"<span class=\"signature\">(handle)</span><span class=\"type-signature\"></span>","ancestors":["<a href=\"module-htz-rAF-wrappers.html\">htz-rAF-wrappers</a>~"]}
+</pre>
+-->
+</div>
+
+        
+            <!--method.tmpl-->
+<div class="method-details">
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line19">19</a>
+  </code>
+</div>
+
+
+
+
+    
+
+    
+
+    <h4 class="name" id="~requestInterval">
+      <a href="#params-requestInterval"><span class="type-signature">(inner) </span>requestInterval</a><span class="signature">(fn, delay, &hellip;args<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Integer|Object}</span>
+
+    </h4>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="description">
+    <p>A <code>requestAnimationFrame</code>-based replacement for <code>setInterval</code>, for better performance</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="collapse_" id="methodCollapse-requestInterval">
+
+  
+
+  
+
+<!-- details.tmpl -->
+
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+  <div id="params-requestInterval" class="bs-callout bs-callout-primary">
+    <h5>Parameters</h5>
+    <!--params.tmpl-->
+
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The callback function to execute.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Integer</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The delay in milliseconds</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>args</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Arglist</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                    &lt;repeatable><br>
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>arguments to be passed to the callback function</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="bs-callout bs-callout-success">
+    <h5>Returns </h5>
+
+        
+<div class="param-desc">
+    <p>The id used to cancel the interval.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Integer</span>
+|
+
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+</div>
+  
+
+
+
+
+
+
+</div>
+
+<!--
+<pre>
+{"comment":"/**\n * A `requestAnimationFrame`-based replacement for `setInterval`, for better performance\n * @param {Function} fn - The callback function to execute.\n * @param {Integer} delay The delay in milliseconds\n * @param {Arglist} [args] - arguments to be passed to the callback function\n *\n * @return {Integer|Object} The id used to cancel the interval.\n */","meta":{"range":[515,1063],"filename":"index.js","lineno":19,"path":"/home/txh/code/htz-rAF-wrappers/src","code":{"id":"astnode100000001","name":"requestInterval","type":"FunctionDeclaration","paramnames":["fn","delay","args"]},"vars":{"cb":"module:htz-rAF-wrappers~requestInterval~cb","start":"module:htz-rAF-wrappers~requestInterval~start","handle":"module:htz-rAF-wrappers~requestInterval~handle","loop":"module:htz-rAF-wrappers~requestInterval~loop","handle.value":"module:htz-rAF-wrappers~requestInterval~handle.value"},"shortpath":"index.js"},"description":"<p>A <code>requestAnimationFrame</code>-based replacement for <code>setInterval</code>, for better performance</p>","params":[{"type":{"names":["function"]},"description":"<p>The callback function to execute.</p>","name":"fn"},{"type":{"names":["Integer"]},"description":"<p>The delay in milliseconds</p>","name":"delay"},{"type":{"names":["Arglist"]},"optional":true,"description":"<p>arguments to be passed to the callback function</p>","name":"args","variable":true}],"returns":[{"type":{"names":["Integer","Object"]},"description":"<p>The id used to cancel the interval.</p>"}],"name":"requestInterval","longname":"module:htz-rAF-wrappers~requestInterval","kind":"function","scope":"inner","memberof":"module:htz-rAF-wrappers","___id":"T000002R000003","___s":true,"attribs":"<span class=\"type-signature\">(inner) </span>","id":"~requestInterval","signature":"<span class=\"signature\">(fn, delay, &hellip;args<span class=\"signature-attributes\">opt</span>)</span><span class=\"type-signature\"> &rarr; {Integer|Object}</span>","ancestors":["<a href=\"module-htz-rAF-wrappers.html\">htz-rAF-wrappers</a>~"]}
+</pre>
+-->
+</div>
+
+        
+            <!--method.tmpl-->
+<div class="method-details">
+
+
+
+  <!--source-link.tmpl-->
+
+
+<div class="pull-right source-link-container">
+  <code class="source-link" data-tmpl="method-tmpl(1)">
+    <i class="fa fa-file-o"></i>
+    <a href="index.js.html">index.js</a>:<a href="index.js.html#line66">66</a>
+  </code>
+</div>
+
+
+
+
+    
+
+    
+
+    <h4 class="name" id="~requestTimeout">
+      <a href="#params-requestTimeout"><span class="type-signature">(inner) </span>requestTimeout</a><span class="signature">(fn, delay, &hellip;args<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Integer|Object}</span>
+
+    </h4>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="description">
+    <p>A <code>requestAnimationFrame</code>-based replacement for <code>setTimeout</code>, for better performance</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="collapse_" id="methodCollapse-requestTimeout">
+
+  
+
+  
+
+<!-- details.tmpl -->
+
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+  <div id="params-requestTimeout" class="bs-callout bs-callout-primary">
+    <h5>Parameters</h5>
+    <!--params.tmpl-->
+
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The callback function to execute.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Integer</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The delay in milliseconds</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>args</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                    &lt;repeatable><br>
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>arguments to be passed to the callback function</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="bs-callout bs-callout-success">
+    <h5>Returns </h5>
+
+        
+<div class="param-desc">
+    <p>The id used to cancel the timeout.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Integer</span>
+|
+
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+</div>
+  
+
+
+
+
+
+
+</div>
+
+<!--
+<pre>
+{"comment":"/**\n * A `requestAnimationFrame`-based replacement for `setTimeout`, for better performance\n * @param {Function} fn - The callback function to execute.\n * @param {Integer} delay The delay in milliseconds\n * @param {Array} [args] - arguments to be passed to the callback function\n *\n * @return {Integer|Object} The id used to cancel the timeout.\n */","meta":{"range":[1665,2156],"filename":"index.js","lineno":66,"path":"/home/txh/code/htz-rAF-wrappers/src","code":{"id":"astnode100000112","name":"requestTimeout","type":"FunctionDeclaration","paramnames":["fn","delay","args"]},"vars":{"cb":"module:htz-rAF-wrappers~requestTimeout~cb","start":"module:htz-rAF-wrappers~requestTimeout~start","handle":"module:htz-rAF-wrappers~requestTimeout~handle","loop":"module:htz-rAF-wrappers~requestTimeout~loop","handle.value":"module:htz-rAF-wrappers~requestTimeout~handle.value"},"shortpath":"index.js"},"description":"<p>A <code>requestAnimationFrame</code>-based replacement for <code>setTimeout</code>, for better performance</p>","params":[{"type":{"names":["function"]},"description":"<p>The callback function to execute.</p>","name":"fn"},{"type":{"names":["Integer"]},"description":"<p>The delay in milliseconds</p>","name":"delay"},{"type":{"names":["Array"]},"optional":true,"description":"<p>arguments to be passed to the callback function</p>","name":"args","variable":true}],"returns":[{"type":{"names":["Integer","Object"]},"description":"<p>The id used to cancel the timeout.</p>"}],"name":"requestTimeout","longname":"module:htz-rAF-wrappers~requestTimeout","kind":"function","scope":"inner","memberof":"module:htz-rAF-wrappers","___id":"T000002R000014","___s":true,"attribs":"<span class=\"type-signature\">(inner) </span>","id":"~requestTimeout","signature":"<span class=\"signature\">(fn, delay, &hellip;args<span class=\"signature-attributes\">opt</span>)</span><span class=\"type-signature\"> &rarr; {Integer|Object}</span>","ancestors":["<a href=\"module-htz-rAF-wrappers.html\">htz-rAF-wrappers</a>~"]}
+</pre>
+-->
+</div>
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Sat Jun 25 2016 18:18:39 GMT+0300 (IDT) using the LOKE theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
